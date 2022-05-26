@@ -1,0 +1,5 @@
+.prettierrc
+.DS_Store
+node_modules
+tsconfig.json
+logo.png
