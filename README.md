@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://raw.githubusercontent.com/stevenpersia/picoform/master/logo.png" alt="picoform" /></h1>
+<h1 align="center"><img src="https://github.com/stevenpersia/picoform/blob/main/picoform.png" alt="picoform" /></h1>
 
 ## Overview
 
