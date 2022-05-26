@@ -30,7 +30,7 @@ import { useForm } from 'picoform';
 export default function App() {
   const { as, handleSubmit, values } = useForm();
 
-  const onSubmit = console.log({ values });
+  const onSubmit = () => console.log(values);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -55,7 +55,7 @@ const initialValues = {
 export default function App() {
   const { as, handleSubmit, values } = useForm({ initialValues });
 
-  const onSubmit = console.log({ values });
+  const onSubmit = () => console.log(values);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -87,7 +87,7 @@ export default function App() {
   const onSubmit = async () => {
     try {
       await schema.validate(values);
-      console.log({ values });
+      console.log(values);
     } catch (err) {
       console.log(err);
     }
@@ -112,7 +112,7 @@ import TextField from '@mui/material/TextField';
 export default function App() {
   const { as, handleSubmit, values } = useForm();
 
-  const onSubmit = console.log({ values });
+  const onSubmit = () => console.log(values);
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
